@@ -1,5 +1,52 @@
 # Codeneuro Git is neuroscience! and everything is awesome!
 
+
+## Staging file then adding additional files
+```
+➜  cheatsheets git:(master) git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   tmux.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  cheatsheets git:(master) ✗ git add .
+➜  cheatsheets git:(master) ✗ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   tmux.md
+
+➜  cheatsheets git:(master) ✗ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   tmux.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   aws.md
+	modified:   jupyter.md
+	modified:   openconnect.md
+
+```
+
+
 ## When you `git pull` and get merge conflicts
 
 ```
@@ -76,3 +123,4 @@ Fast-forward
  rename outrigger/tests/data/tasic2016/outrigger_output_bam/index/{junction_exon_direction_triples.csv => exon_direction_junction.csv} (100%)
  create mode 100644 outrigger/tests/data/tasic2016/outrigger_output_bam/psi/outrigger_summary.csv
  ```
+
