@@ -1,5 +1,9 @@
 # Jupyter notebook
 
+
+
+
+
 Helpful tips for jupyter notebook
 
 ## Create an environment that has jupyter inside

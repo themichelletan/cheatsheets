@@ -20,3 +20,6 @@ Use with UCSF Credentials
 ```
 sudo openconnect --authgroup="Single-Factor Pulse Clients" --user sfXXXXXX --juniper https://remote.ucsf.edu/openconnect
 ```
+
+
+
