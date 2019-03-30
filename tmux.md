@@ -10,7 +10,3 @@ Control-B Shift-%
 ```
 Control-B left/right arrow
 ```
-
-
-
-
