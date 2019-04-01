@@ -1,4 +1,9 @@
-# Codeneuro Git is neuroscience! and everything is awesome!
+## git simple instructions
+```
+git add <file>
+git commit -m "<meaningful message>"
+git push (pull before push)
+``` 
 
 
 ## Staging file then adding additional files
