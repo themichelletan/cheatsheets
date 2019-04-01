@@ -10,3 +10,8 @@ Control-B Shift-%
 ```
 Control-B left/right arrow
 ```
+
+## Closing Pane
+```
+Control-D 
+```
